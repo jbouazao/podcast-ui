@@ -1,0 +1,65 @@
+.header {
+	width: 1160px;
+	height: 98px;
+	margin: auto;
+	/* border: 1px solid black; */
+	display: flex;
+	gap: 130px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 64px;
+	height: 64px;
+}
+
+.menuitems {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	width: 315px;
+	align-items: center;
+}
+
+.menuitem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	/* border: 1px solid black; */
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5px;
+	width: 14px;
+	height: 14px;
+	border: 1px solid grey;
+	border-radius: 50%;
+}
+
+.headermenubutton{
+	font-size: 16px;
+	font-family: "MontserratAlternatesBold";
+	border: none;
+	cursor: pointer;
+	background: none;
+	display: flex;
+	align-items: center;
+}
+
+.actions {
+	/* width: 100%; */
+	display: flex;
+	justify-self: flex-end;
+	/* border: 1px solid black; */
+	gap: 20px;
+}
+
+.recentepisodesbutton {
+	background: none;
+	border: none;
+}

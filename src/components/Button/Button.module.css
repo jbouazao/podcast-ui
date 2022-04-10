@@ -1,0 +1,22 @@
+button {
+	font-family: montserratAlternatesBold;
+	font-size: 14px;
+	padding: 12px 24px;
+	border: 2px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.fill {
+	background-color: black;
+	color: white;
+}
+
+.outline {
+	background: none;
+	color: black;
+}
+
+.withshadow {
+	box-shadow: 5px 5px 0px -2px #aaaaaa;
+}
