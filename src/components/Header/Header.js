@@ -1,6 +1,6 @@
 import classes from './Header.module.css'
 import {BiChevronDown} from 'react-icons/bi'
-import Logo from '../Logo/Logo'
+import Logo from '../UI/Logo/Logo'
 import Button from '../Button/Button'
 
 const Header = (props) => {
@@ -19,8 +19,8 @@ const Header = (props) => {
 				</div>
 			</div>
 			<div className = {classes.actions}>
-				<Button className = {classes.recentepisodesbutton} variant = 'outline' withShadow>RECENT EPISODES</Button>
-				<Button className = {classes.subscribebutton} variant = 'fill' >SUBSCRIBE</Button>
+				<Button variant = 'outline' withShadow>RECENT EPISODES</Button>
+				<Button variant = 'fill' withShadow>SUBSCRIBE</Button>
 			</div>
 	</div>
 }
