@@ -1,7 +1,7 @@
 import classes from './Header.module.css'
 import {BiChevronDown} from 'react-icons/bi'
 import Logo from '../UI/Logo/Logo'
-import Button from '../Button/Button'
+import Button from '../UI/Button/Button'
 
 const Header = (props) => {
 	return <div className = {classes.header}>

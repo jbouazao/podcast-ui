@@ -35,6 +35,12 @@ code {
 }
 
 @font-face {
+	font-family: "MontserratAlternatesMedium";
+	src: local("MontserratAlternatesMedium"),
+	url("./fonts/MontserratAlternates-Medium.ttf") format("truetype");
+}
+
+@font-face {
 	font-family: "MontserratAlternatesSemiBold";
 	src: local("MontserratAlternatesSemiBold"),
 	url("./fonts/MontserratAlternates-SemiBold.ttf") format("truetype");

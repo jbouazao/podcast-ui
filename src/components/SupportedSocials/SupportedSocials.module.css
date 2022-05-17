@@ -1,0 +1,25 @@
+.maincontainer {
+	margin: auto;
+	width: 1184px;
+	height: 140px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 100px;
+}
+
+.h4 {
+	font-family: "MontserratAlternatesBold";
+	font-size: 20px;
+	padding: 20px;
+}
+
+.logoscontainer {
+	display: flex;
+	justify-content: flex-end;
+	gap: 100px;
+	flex: 2;
+	padding-right: 70px;
+}

@@ -1,4 +1,4 @@
-import Button from '../Button/Button';
+import Button from '../UI/Button/Button';
 import HeroSvg1 from '../UI/HeroSvg1/HeroSvg1';
 import HeroSvg2 from '../UI/HeroSvg2/HeroSvg2';
 import HeroSvg3 from '../UI/HeroSvg3/HeroSvg3';

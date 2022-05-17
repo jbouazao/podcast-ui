@@ -1,0 +1,87 @@
+.aboutcontainer {
+	height: 1375px;
+	width: 100%;
+}
+
+.title {
+	font-size: 60px;
+	width: 835px;
+	font-family: MontserratAlternatesBold;
+	margin: auto;
+	letter-spacing: -2%;
+	text-align: center;
+}
+
+.illustrations {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 150px;
+	height: 500px;
+	/* border: 1px solid black; */
+}
+
+.illustrationitem {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	/* border: 1px solid black; */
+}
+
+.image {
+	width: 300px;
+}
+
+.text {
+	font-family: MontserratAlternatesMedium;
+	text-align: center;
+	width: 500px;
+}
+
+.feedback {
+	position: relative;
+	height: 366px;
+	width: 1160px;
+	background-color: #F7EDE8;
+	margin: auto;
+	display: flex;
+	gap: 40px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.feedbacktext {
+	font-family: MontserratAlternatesBold;
+	text-align: center;
+	font-size: 34px;
+	width: 800px;
+}
+
+.profilefeedback {
+	width: 500px;
+	height: 56px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	/* border: 1px solid black; */
+}
+
+.scribble {
+	position: absolute;
+	top: 150px;
+	left: -60px;
+}
+
+.starabout {
+	position: absolute;
+	top: -60px;
+	right: -60px;
+}
+
+.avatar {
+	border-radius: 100%;
+	/* width: 30px; */
+}
