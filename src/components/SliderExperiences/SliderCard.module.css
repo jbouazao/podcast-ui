@@ -1,0 +1,20 @@
+.main {
+	width: 570px;
+	height: 360px;
+	padding: 50px 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	/* border: 1px solid black; */
+	background-color: white;
+	border-radius: 10px;
+}
+
+.svg {
+	width: 40px;
+}
+
+.text {
+	font-family: MontserratAlternatesRegular;
+	font-size: 20px;
+}

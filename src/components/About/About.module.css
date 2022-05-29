@@ -1,5 +1,5 @@
 .aboutcontainer {
-	height: 1375px;
+	/* height: 1375px; */
 	width: 100%;
 }
 
@@ -60,15 +60,6 @@
 	width: 800px;
 }
 
-.profilefeedback {
-	width: 500px;
-	height: 56px;
-	display: flex;
-	align-items: center;
-	gap: 10px;
-	/* border: 1px solid black; */
-}
-
 .scribble {
 	position: absolute;
 	top: 150px;
@@ -79,9 +70,4 @@
 	position: absolute;
 	top: -60px;
 	right: -60px;
-}
-
-.avatar {
-	border-radius: 100%;
-	/* width: 30px; */
 }

@@ -1,11 +1,13 @@
 import illustration1 from '../../assets/illustration1.svg'
 import illustration2 from '../../assets/illustration2.svg'
 import quotepic from '../../assets/quotesabout.svg'
-import avatar from '../../assets/avatar.png'
+import avatar from '../../assets/avatar.jpeg'
 import spotifylogo from '../../assets/spotifylogo.svg'
 import scribbleabout from '../../assets/scribbleabout.svg'
 import starabout from '../../assets/starabout.svg'
 import classes from './About.module.css'
+import Scribble from '../UI/Scribble/Scribble'
+import ProfileSummary from '../ProfileSummary/ProfileSummary'
 
 const About = () => {
 	return <div className = {classes.aboutcontainer}>
@@ -26,16 +28,11 @@ const About = () => {
 			<img className = {classes.starabout} src = {starabout} alt = 'scribble'/>
 			<img src = {quotepic} alt = 'quote'/>
 			<p className = {classes.feedbacktext}>One of the best daily podcasts that covers every topic on Spotify.</p>
-			<div className = {classes.profilefeedback}>
-				<div style = {{width: '50px', height: '50px'}}>
-					<img className = {classes.avatar} src = {avatar} alt = 'avatar' />
-				</div>
-				<p style = {{fontFamily: 'MontserratAlternatesRegular', width: '90px', fontSize: '14px'}}>John Smith,</p>
-				<p style = {{fontFamily: 'MontserratAlternatesBold', display: 'flex', gap: '10px'}}>
-					<img src = {spotifylogo} alt = 'logo'/>
-					Social Community Manager
-				</p>
-			</div>
+			<ProfileSummary name = 'John Smith' avatar = {avatar} logo = {spotifylogo} role = 'Social Community Manager'/>
+		</div>
+		<div style = {{height: '120px', width: '100%'}}></div>
+		<div style = {{position: 'relative'}}>
+			<Scribble />
 		</div>
 	</div>
 }

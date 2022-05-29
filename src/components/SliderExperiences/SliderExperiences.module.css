@@ -1,0 +1,47 @@
+.main {
+	width: 100%;
+	background-color: #EDF3F7;
+}
+
+.title {
+	position: relative;
+	font-size: 60px;
+	width: 835px;
+	font-family: MontserratAlternatesBold;
+	margin: auto;
+	letter-spacing: -2%;
+	text-align: center;
+}
+
+.h5 {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	font-family: MontserratAlternatesRegular;
+	letter-spacing: -2%;
+	text-align: center;
+}
+
+.sliderwrapper {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	/* border: 1px solid black; */
+}
+
+.slider {
+	width: 100%;
+}
+
+.buttonswrapper {
+	display: flex;
+	gap: 10px;
+}
+
+.sliderbutton {
+	cursor: pointer;
+}
