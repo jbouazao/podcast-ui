@@ -31,9 +31,7 @@ const About = () => {
 			<ProfileSummary name = 'John Smith' avatar = {avatar} logo = {spotifylogo} role = 'Social Community Manager'/>
 		</div>
 		<div style = {{height: '120px', width: '100%'}}></div>
-		<div style = {{position: 'relative'}}>
-			<Scribble />
-		</div>
+		<Scribble color = 'orange'/>
 	</div>
 }
 

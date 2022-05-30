@@ -3,6 +3,7 @@ import Layout from './Layout/Layout'
 import HeaderPage from './components/HeaderPage/HeaderPage'
 import About from './components/About/About';
 import SliderExperiences from './components/SliderExperiences/SliderExperiences';
+import Benefits from './components/Benefits/Benefits';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 			<HeaderPage/>
 			<About />
 			<SliderExperiences />
+			<Benefits />
 		</Layout>
   );
 }

@@ -13,6 +13,7 @@ import googlelogo from '../../assets/googlelogo.svg'
 import youtubelogo from '../../assets/youtubelogo.svg'
 import {IoIosArrowDropleft, IoIosArrowDropright} from 'react-icons/io'
 import { useRef } from 'react';
+import Scribble from '../UI/Scribble/Scribble';
 
 const DUMMY_PROFILES = [
 	{
@@ -86,6 +87,9 @@ const SliderExperiences = () => {
 			</div>
 		</div>
 		<div style = {{width: '100%', height: '120px'}}></div>
+		<div style = {{position: 'relative'}}>
+			<Scribble color = 'black'/>
+		</div>
 	</div>
 }
 

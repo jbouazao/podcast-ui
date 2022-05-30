@@ -12,9 +12,7 @@ const HeaderPage = (props) => {
 		<LandingSlider />
 		<SupportedSocials />
 		<div style = {{height: '120px', width: '100%'}}></div>
-		<div style = {{position: 'relative'}}>
-			<Scribble />
-		</div>
+		<Scribble color = 'orange'/>
 	</div>
 }
 
