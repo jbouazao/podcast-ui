@@ -1,6 +1,6 @@
 .scribble {
 	position: absolute;
-	top: -72px;
+	/* margin: auto; */
+	top: -70px;
 	left: 760px;
-	/* background-color: red; */
 }

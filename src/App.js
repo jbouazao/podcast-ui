@@ -4,6 +4,7 @@ import HeaderPage from './components/HeaderPage/HeaderPage'
 import About from './components/About/About';
 import SliderExperiences from './components/SliderExperiences/SliderExperiences';
 import Benefits from './components/Benefits/Benefits';
+import Episodes from './components/Episodes/Episodes';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 			<About />
 			<SliderExperiences />
 			<Benefits />
+			<Episodes />
 		</Layout>
   );
 }

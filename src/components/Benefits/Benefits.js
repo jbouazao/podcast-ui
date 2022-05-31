@@ -8,6 +8,7 @@ import svg4 from '../../assets/gridsvg4.svg';
 import svg5 from '../../assets/gridsvg5.svg';
 import svg6 from '../../assets/gridsvg6.svg';
 import Button from '../UI/Button/Button';
+import Scribble from '../UI/Scribble/Scribble';
 
 const DUMMY_DATA = [
 	{
@@ -62,6 +63,8 @@ const Benefits = () => {
 		<div style = {{display: 'flex', justifyContent: 'center', height: '150px'}}>
 			<Button className = {classes.button} variant = 'fill' withShadow>See pricing</Button>
 		</div>
+		<div style = {{width: '100%', height: '80px'}}></div>
+		<Scribble/>
 	</div>
 }
 

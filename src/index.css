@@ -51,3 +51,9 @@ code {
 	src: local("MontserratAlternatesBold"),
 	url("./fonts/MontserratAlternates-Bold.ttf") format("truetype");
 }
+
+@font-face {
+	font-family: "MontserratAlternatesThin";
+	src: local("MontserratAlternatesThin"),
+	url("./fonts/MontserratAlternates-Thin.ttf") format("truetype");
+}

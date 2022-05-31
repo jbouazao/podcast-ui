@@ -1,0 +1,38 @@
+.main {
+	background-color: #F7EDE8;
+}
+
+.title {
+	font-size: 60px;
+	width: 835px;
+	font-family: MontserratAlternatesBold;
+	margin: auto;
+	letter-spacing: -2%;
+	text-align: center;
+}
+
+.svg{
+	position: absolute;
+	top: -140px;
+	left: 1040px;
+}
+
+.h5 {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	font-family: MontserratAlternatesRegular;
+	letter-spacing: -2%;
+	text-align: center;
+}
+
+.cards {
+	padding: 0 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 40px;
+}

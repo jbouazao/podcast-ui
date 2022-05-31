@@ -87,9 +87,9 @@ const SliderExperiences = () => {
 			</div>
 		</div>
 		<div style = {{width: '100%', height: '120px'}}></div>
-		<div style = {{position: 'relative'}}>
+		{/* <div style = {{position: 'relative'}}> */}
 			<Scribble color = 'black'/>
-		</div>
+		{/* </div> */}
 	</div>
 }
 
