@@ -11,7 +11,7 @@ const Sponsor = () => {
 			<h5 className = {classes.h5}>Get exclusive episodes, merch and more</h5>
 		</div>
 		<Packages />
-		<div style = {{width: '100%', height: '120px'}}></div>
+		<div style = {{width: '100%', height: '60px'}}></div>
 	</div>
 }
 
