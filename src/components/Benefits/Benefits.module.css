@@ -1,3 +1,10 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .title {
 	font-size: 60px;
 	width: 835px;
@@ -10,7 +17,7 @@
 .svg{
 	position: absolute;
 	top: -180px;
-	left: 1040px;
+	right: -40px;
 }
 
 .h5 {

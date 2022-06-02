@@ -26,8 +26,6 @@ const EpisodeCard = (props) => {
 					{props.data.hostedby.map((host, index) => {
 						return <img className = {classes.hostspic} style = {{left: `${20 * index}px`, zIndex: `${1 * props.data.hostedby.length - index}`}} src = {props.data.hostedby[index]} alt = ''/>
 					})}
-					{/* <img className = {classes.hostspic} style = {{left: `${20 * 1}px`, zIndex: `${1 * 1}`}} src = {props.data.hostedby[0]} alt = ''/> */}
-					{/* <img className = {classes.hostspic} style = {{left: `${20 * 2}px`, zIndex: `${1 * 0}`}} src = {props.data.hostedby[0]} alt = ''/> */}
 				</div>
 			</div>
 		</div>

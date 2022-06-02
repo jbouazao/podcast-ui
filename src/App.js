@@ -5,6 +5,7 @@ import About from './components/About/About';
 import SliderExperiences from './components/SliderExperiences/SliderExperiences';
 import Benefits from './components/Benefits/Benefits';
 import Episodes from './components/Episodes/Episodes';
+import Sponsor from './components/Sponsor/Sponsor';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 			<SliderExperiences />
 			<Benefits />
 			<Episodes />
+			<Sponsor />
 		</Layout>
   );
 }

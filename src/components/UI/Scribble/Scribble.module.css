@@ -2,5 +2,6 @@
 	position: absolute;
 	/* margin: auto; */
 	top: -70px;
-	left: 760px;
+	left: 50%;
+	transform: translate(-50%);
 }

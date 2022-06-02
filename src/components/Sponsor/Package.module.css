@@ -1,0 +1,65 @@
+.main {
+	font-family: MontserratAlternatesRegular;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	width: 373px;
+	padding: 40px;
+	padding-top: 80px;
+	border: 1.5px solid black;
+	border-radius: 8px;
+}
+
+.titlewrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.popular {
+	display: flex;
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+	justify-content: center;
+	align-items: center;
+	font-family: MontserratAlternatesBold;
+	background-color: #CD4631;
+	color: white;
+	border-radius: 5px;
+}
+
+.title {
+	font-family: MontserratAlternatesBold;
+	font-size: 34px;
+}
+
+.buttonpricewrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.button {
+	width: 160px;
+	height: 60px;
+}
+
+.pricewrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.contentlist {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	list-style: none;
+	padding: 0;
+}

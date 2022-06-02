@@ -11,6 +11,8 @@ import ep3pic from '../../assets/slidersection1/image3.png'
 import ep4pic from '../../assets/slidersection1/image4.png'
 import ep5pic from '../../assets/slidersection1/image5.png'
 import ep6pic from '../../assets/slidersection1/image6.png'
+import Button from '../UI/Button/Button'
+import Scribble from '../UI/Scribble/Scribble'
 
 const DUMMY_EPS = [
 	{
@@ -118,6 +120,8 @@ const Episodes = () => {
 			{DUMMY_EPS.map(ep => <EpisodeCard data = {ep}/>)}
 		</div>
 		<div style = {{width: '100%', height: '70px'}}></div>
+		<Button variant = "fill" withShadow className = {classes.browsebutton}>BROWSE ALL EPISODES</Button>
+		<Scribble />
 		</div>
 }
 
